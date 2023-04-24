@@ -35,3 +35,19 @@ Realizar programa que determine si una persona es meno o mayor de edad
 */
 let edad2 = numero =>(numero >= 18) ? "Es mayor de edad" : "Es menor de edad"
 console.log(edad2(34))
+
+let arr = {name: "dfg", age: 31 }
+console.log(arr.name)
+
+let persona1 = new Object()
+persona1.nombre = 'Daniel'
+persona1.apellido = "Flores"
+persona1.edad = 31
+
+console.log(persona1.edad)
+console.log(persona1)
+
+persona1.work = "dev"
+
+console.log(persona1)
+/*delete persona1.work */
